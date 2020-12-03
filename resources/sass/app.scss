@@ -1,0 +1,72 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+#messagesSection{
+	color: red;
+}
+
+div.bg-dark {
+  height: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mesaj-small {
+  line-height: 4;
+}
+
+table .label {
+  background-color: cadetblue;
+}
+
+.imagine-autor {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid orange;
+  //display: inline-block;
+  float: left;
+}
+
+div.comentariu {
+  margin-bottom: 45px;
+}
+
+div.nume-autor {
+  float: left;
+  margin-left: 15px;
+  h4 {
+    margin: 5px 0;
+  }
+  .autor-timp {
+    font-size: 11px;
+    font-style: italic;
+    color: #aaa;
+  }
+}
+
+div.continut-comentariu {
+   clear: both;
+   margin-left: 65px;
+   font-size: 16px;
+   line-height: 1.3em;
+}
+
+h3.titlu-comentariu {
+    margin-right: 15px;
+}
+
+
